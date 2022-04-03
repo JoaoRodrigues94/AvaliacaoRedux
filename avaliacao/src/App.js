@@ -13,10 +13,19 @@ function App() {
       <div className='row'>
         <Desafio/>
       </div>
-      <div className='row'></div>
-      <div className='row'></div>
-      <div className='row'></div>
-      <div className='row'></div>
+      <div className='row'>
+        <Numero/>
+      </div>
+      <div className='row'>
+        <Propriedades titulo='Qual sua nota?' 
+        aluno='João Paulo Fernandes Rodrigues'/>
+      </div>
+      <div className='row'>
+        <Sorteio/>
+      </div>
+      <div className='row'>
+        <Recesso/>
+      </div>
     </div>
   );
 }
